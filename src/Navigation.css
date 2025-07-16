@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 5vh 0;
+}
+
+img {
+    width: 50px;
+}
+
+.navbar {
+    padding: 1.5vh 0.2vw;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.nav_link {
+    padding: 1.5vh 1vw;
+    border-radius: 30px;
+    color: #007bff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    background-color: #007bff;
+    display: subgrid;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+.contact_button {
+    height: 8vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 1.5vh 1vw;
+    cursor: pointer;
+
+}
+
+.contact_button::before {
+    content: "დაგვიკავშირდით";
+    transition: opacity 0.5s ease;
+}
+
+.contact_button:after {
+    content: "598 09 09 09";
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.contact_button:hover::before {
+    opacity: 0;
+}
+
+.contact_button:hover::after {
+    opacity: 1;
+}

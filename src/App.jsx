@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <>
-      <Router>
+      <Router basename='/inovIT'>
         <Navigation />
         <Routes>
           <Route path='/' element={<Home />} />

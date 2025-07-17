@@ -6,11 +6,11 @@ export default function Navigation() {
 
     return (
         <div className="header">
-            <NavLink to="/inovIT">
+            <NavLink to="/">
                 <img src={logo} alt="logo" />
             </NavLink>
             <nav className="navbar">
-                <NavLink to="/inovIT" className="nav_link">მთავარი</NavLink>
+                <NavLink to="/" className="nav_link">მთავარი</NavLink>
                 <NavLink to="/why_us" className="nav_link">რატომ ჩვენ</NavLink>
                 <NavLink to="/about" className="nav_link">ჩვენს შესახებ</NavLink>
                 <NavLink to="/contact" className="nav_link">კონტაქტი</NavLink>

@@ -31,7 +31,7 @@
     border: 1px solid #2e6699;
     color: #f3f1f1;
     cursor: pointer;
-    transition: background-color 0.5s, color 5s;
+    transition: background-color 0.5s, color 0.5s;
 
     img {
         border-radius: 25px;

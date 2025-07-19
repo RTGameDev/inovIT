@@ -6,7 +6,7 @@ export default function Navigation() {
 
     return (
         <div className="header">
-            <NavLink to="/">
+            <NavLink className="img_link" to="/">
                 <img src={logo} alt="logo" />
             </NavLink>
             <nav className="navbar">

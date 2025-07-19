@@ -7,6 +7,10 @@
     padding: 5vh 0;
 }
 
+.img_link{
+    width: 15%;
+}
+
 img {
     width: 50px;
 }
@@ -30,6 +34,10 @@ img {
     display: subgrid;
     color: #f3f1f1;
     transition: background-color 0.5s, color 0.5s;
+}
+
+.contact_button_box{
+    width: 15%;
 }
 
 

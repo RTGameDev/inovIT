@@ -16,7 +16,7 @@ export default function Navigation() {
                 <NavLink to="/contact" className="nav_link">კონტაქტი</NavLink>
             </nav>
             <div className="contact_button_box">
-                <div className="contact_button"></div>
+                <div className="contact_us"></div>
             </div>
         </div>
     );

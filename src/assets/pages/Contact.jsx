@@ -16,18 +16,18 @@ export default function Contact() {
           ელ.ფოსტა:
           <input type="email" name="email" className="contact_input" placeholder="you@example.com" />
         </label>
-        <label> 
+        <label>
           შეტყობინება:
           <textarea name="message" className="contact_textarea" placeholder="თქვენი ტექსტი" />
         </label>
         <button type="submit" className="contact_button">გაგზავნა</button>
       </form>
       <div className="contact_details">
-        <div className="facebook_instagram">
+        <div>
           <a href="https://www.facebook.com/"><img src={facebook} alt="" /></a>
           <a href="https://www.instagram.com/"><img src={instagram} alt="" /></a>
         </div>
-        <div className="facebook_instagram">
+        <div>
           <a href="https://www.linkedin.com/"><img src={linkdin} alt="" /></a>
           <a href="https://www.youtube.com/"><img src={youtube} alt="" /></a>
         </div>

@@ -3,6 +3,9 @@ import youtube from "../images/contact_img/youtube.png"
 import facebook from "../images/contact_img/facebook.png"
 import linkdin from "../images/contact_img/linkedin.png"
 import instagram from "../images/contact_img/instagram.png"
+import phone from "../images/contact_img/phone.png"
+import email from "../images/contact_img/gmail.png"
+import location from "../images/contact_img/location.png"
 
 export default function Contact() {
   return (
@@ -31,9 +34,9 @@ export default function Contact() {
           <a href="https://www.linkedin.com/"><img src={linkdin} alt="" /></a>
           <a href="https://www.youtube.com/"><img src={youtube} alt="" /></a>
         </div>
-        <p><img src="" alt="" />ტელეფონი: 598 09 09 09</p>
-        <p><img src="" alt="" /> ელ.ფოსტა: info@example.com</p>
-        <p><img src="" alt="" /> მისამართი: თბილისი, საქართველო</p>
+        <p><img src={phone} alt="" />ტელეფონი: 598 09 09 09</p>
+        <p><img src={email} alt="" /> ელ.ფოსტა: info@example.com</p>
+        <p><img src={location} alt="" /> მისამართი: თბილისი, საქართველო</p>
       </div>
     </section>
   );

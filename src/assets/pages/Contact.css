@@ -2,6 +2,11 @@
   padding: 2rem;
   display: flex;
   justify-content: space-evenly;
+  background-color: #f3f1f1;
+  width: 60vw;
+  height: 65vh;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .contact_header {
@@ -14,6 +19,7 @@
   flex-direction: column;
   gap: 1rem;
   max-width: 400px;
+  color: #3d3d3d;
 }
 
 .contact_input,
@@ -41,16 +47,28 @@
 }
 
 .contact_details {
-  height: 50vh;
   font-size: 1rem;
   line-height: 1.5;
-  color: #f3f1f1;
+  /* color: #f3f1f1; */
+  color: #3d3d3d;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 5vh 0;
+  border-radius: 10px;
 
   div {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 2vw;
+      margin-right: 1vw;
+    }
   }
 }

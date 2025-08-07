@@ -11,12 +11,14 @@
 }
 
 .services_cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
 }
 
 .service_card {
+    width: 250px;
     padding: 1rem;
     font-weight: 600;
     border: 1px solid #ccc;
@@ -49,12 +51,15 @@
 .service_card:nth-child(1) img {
     padding: 1%;
 }
+
 .service_card:nth-child(2) img {
     padding: 1.5%;
 }
+
 .service_card:nth-child(6) img {
     padding: 1%;
 }
+
 .service_card:nth-child(8) img {
     padding: 1.5%;
 }
